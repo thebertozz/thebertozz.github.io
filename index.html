@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riconoscere Sistema Operativo</title>
+    <title>Test apertura impostazioni</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -44,7 +44,7 @@
 
             if (os === 'iOS') {
                 button.onclick = function() {
-                    window.location.href = 'App-Prefs:root=General';
+                    window.location.href = 'prefs:root=General';
                 };
                 instructions.innerHTML = "Clicca il pulsante sopra per aprire le impostazioni Wi-Fi su iOS.";
             } else if (os === 'MacOS') {
